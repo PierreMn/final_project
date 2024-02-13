@@ -1,0 +1,20 @@
+data:
+    back_up:
+      cards_back_up: "data/back_up/card_records_backup.pickle"
+      player_cards_back_up: "data/back_up/player_card_records_backup.pickle"       
+      player_card: "data/back_up/player_card_records.pickle"
+      player: "data/back_up/player_records_backup.pickle"
+      second_card: "data/back_up/second_card_records_backup.pickle"
+      team_card: "team_card_records_backup.pickle"
+    cleaned:
+        la_liga_cards: "data/cleaned/la_liga_cards.csv"
+        la_liga_cards_filtered_transactions: "data/cleaned/la_liga_filtered_cards_transactions.csv"
+        la_liga_transactions_only: "data/cleaned/transactions_only.csv"
+    source: 
+        all_cards_transactions: "data/source/all_cards_transactions_la_liga.csv"
+        all_players_cards_transactions_la_liga: "data/source/all_players_cards_transactions_la_liga.csv"
+        clubs_by_season: "data/source/clubs_by_season.csv"
+        clubs_history: "data/source/clubs_hist.csv"
+        eth_prices: "data/source/ETH-EUR.csv"
+        players_scoces: "data/source/la_liga_players_scores.csv"
+        players_clubs_hist: "data/source/players_clubs_history.csv"
